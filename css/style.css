@@ -939,4 +939,34 @@ ol.pub-list {
     body {
         font-size: 12px;
     }
+
+   .news-list {
+    max-height: 320px;      /* 控制显示约5条 */
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+/* 滚动条美化 */
+.news-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+    border-radius: 10px;
+}
+
+.news-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* 每条新闻间距优化 */
+.news-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
 }
