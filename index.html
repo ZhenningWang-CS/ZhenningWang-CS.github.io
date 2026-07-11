@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zhenning Wang (王振宁) - Associate Professor, School of Computer Science and Engineering, Nanjing University of Science and Technology (NJUST). Research: mobile crowdsensing, edge intelligence, Internet of Vehicles.">
+    <meta name="keywords" content="Zhenning Wang, 王振宁, NJUST, Nanjing University of Science and Technology, Crowdsensing, Edge Intelligence, Internet of Vehicles">
+    <meta name="author" content="Zhenning Wang">
+    <title>Zhenning Wang | 王振宁</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- 字体与图标异步加载：加载失败或网络慢（如大陆访问 Google Fonts）时不阻塞页面显示，自动使用系统字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@600;700&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@600;700&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </noscript>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 顶部导航条（内容由 js/main.js 生成） -->
+    <header class="topbar">
+        <div class="topbar-inner">
+            <a href="#about" class="topbar-brand" id="nav-name">Zhenning Wang</a>
+            <nav class="topbar-nav" id="nav-links"></nav>
+            <button class="lang-btn" id="lang-toggle" type="button">中文</button>
+        </div>
+    </header>
+
+    <!-- 左侧栏 + 右侧正文（所有内容来自 data/content.js，由 js/main.js 渲染） -->
+    <div class="layout">
+
+        <aside class="sidebar">
+            <div id="sidebar-inner"></div>
+        </aside>
+
+        <main>
+            <noscript>
+                <p style="padding:20px 0">This page requires JavaScript to display. /
+                   本页面需要启用 JavaScript 才能正常显示。</p>
+            </noscript>
+
+            <section id="about" class="section">
+                <h2 class="section-title" id="about-title">About Me</h2>
+                <p class="bio" id="bio"></p>
+                <h3 class="interests-title" id="interests-title">Research Interests</h3>
+                <div class="tag-list" id="interest-tags"></div>
+            </section>
+
+            <section id="experience" class="section">
+                <h2 class="section-title" id="experience-title">Experience</h2>
+                <div id="experience-list"></div>
+            </section>
+
+            <section id="news" class="section">
+                <h2 class="section-title" id="news-title">News</h2>
+                <div id="news-list"></div>
+                <div class="news-more" id="news-more"></div>
+            </section>
+
+            <section id="publications" class="section">
+                <h2 class="section-title" id="publications-title">Publications</h2>
+                <p class="pub-note" id="pub-note"></p>
+                <div class="pub-tabs" id="pub-tabs"></div>
+                <ol class="pub-list" id="pub-list"></ol>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 class="section-title" id="projects-title">Research Projects</h2>
+                <div id="project-list"></div>
+            </section>
+
+            <section id="awards" class="section">
+                <h2 class="section-title" id="awards-title">Honors &amp; Awards</h2>
+                <div id="awards-box"></div>
+            </section>
+
+            <section id="visits" class="section">
+                <h2 class="section-title" id="visits-title">Academic Visits</h2>
+                <div id="visits-list"></div>
+            </section>
+
+            <footer class="footer">
+                <p id="footer-text"></p>
+            </footer>
+        </main>
+    </div>
+
+    <!-- 回到顶部 -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- 内容数据（改内容只改这个文件） -->
+    <script src="data/content.js"></script>
+    <!-- 渲染逻辑 -->
+    <script src="js/main.js"></script>
+</body>
+</html>
