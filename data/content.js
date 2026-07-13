@@ -315,7 +315,7 @@ window.SITE = {
   },
 
   footer: {
-    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST",
-    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院"
-  }
+    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST<br><span style='font-size:0.9em;color:#777;'>Last updated: 2026-07-13</span>",
+    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院<br><span style='font-size:0.9em;color:#777;'>最后更新：2026-07-13</span>"
+}
 };
