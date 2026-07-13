@@ -68,8 +68,14 @@
       "<svg viewBox='0 0 120 16' aria-hidden='true'><path d='M0 8 H28 L34 2 L42 14 L48 5 L54 11 L60 8 H120' fill='none' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/></svg>"));
 
     box.appendChild(el("p", "side-title", t(p.title)));
+    // box.appendChild(el("p", "side-affil",
+    //   "<a href='" + p.affiliation.url + "' target='_blank' rel='noopener'>" + t(p.affiliation.text) + "</a>"));
     box.appendChild(el("p", "side-affil",
-      "<a href='" + p.affiliation.url + "' target='_blank' rel='noopener'>" + t(p.affiliation.text) + "</a>"));
+  lang === "en"
+    ? "School of Computer Science and Engineering<br>" +
+      "<a href='" + p.affiliation.url + "' target='_blank' rel='noopener'>Nanjing University of Science and Technology</a>"
+    : "<a href='" + p.affiliation.url + "' target='_blank' rel='noopener'>南京理工大学</a><br>计算机科学与工程学院"
+));
     box.appendChild(el("p", "side-loc",
       "<i class='fas fa-map-marker-alt' aria-hidden='true'></i> " + t(p.location)));
 
@@ -280,8 +286,25 @@
   }
 
   function renderFooter() {
-    document.getElementById("footer-text").innerHTML = t(S.footer);
-  }
+
+    var today = new Date();
+
+    var yyyy = today.getFullYear();
+    var mm = String(today.getMonth() + 1).padStart(2, "0");
+    var dd = String(today.getDate()).padStart(2, "0");
+
+    var date = yyyy + "-" + mm + "-" + dd;
+
+    var html = t(S.footer);
+
+    html += "<br><span style='font-size:0.9em;color:#777;'>"
+          + (lang === "en"
+              ? "Last updated: " + date
+              : "最后更新：" + date)
+          + "</span>";
+
+    document.getElementById("footer-text").innerHTML = html;
+}
 
   /* ---------------- 总渲染 ---------------- */
   function renderAll() {
