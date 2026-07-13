@@ -59,15 +59,15 @@ window.SITE = {
     { en: "Crowdsensing",  zh: "群智感知" },
     { en: "Mobile Computing",  zh: "移动计算" },
     { en: "Edge Intelligence",    zh: "边缘智能" },
-    { en: "Internet of Vehicles", zh: "车联网" }，
-    { en: "cybersecurity", zh: "网络安全" }，
+    { en: "Internet of Vehicles", zh: "车联网" },
+    { en: "cybersecurity", zh: "网络安全" },
   ],
 
   /* ------------------------------------------------------------------
    * 四、个人简介（About）—— 可以直接写 HTML，<a> 是超链接
    * ------------------------------------------------------------------ */
   bio: {
-    en: "I am an Associate Professor at <a href='https://cs.njust.edu.cn/' target='_blank' rel='noopener'> the School of Computer Science and Engineering</a>, <a href='https://www.njust.edu.cn/' target='_blank' rel='noopener'>Nanjing University of Science and Technology (NJUST)</a>, which I joined in July 2026 as a member of <a href='https://www.junlongzhou.team/' target='_blank' rel='noopener'>Prof. Junlong Zhou</a>'s research team. I received my Ph.D. degree from the School of Cyber Science and Engineering, Wuhan University, China, in June 2026, under the supervision of <a href='http://yuecao.e.zwz.hk/zh' target='_blank' rel='noopener'>Prof. Yue Cao</a>. Prior to that, I received my Master's degree in 2022, under the supervision of <a href='https://www.scholat.com/huanzhou' target='_blank' rel='noopener'>Prof. Huan Zhou</a> (Northwestern Polytechnical University). I have published 16 papers in premier journals and conferences such as IEEE TMC and IEEE COMST, including two ESI Highly Cited Papers. My research interests include mobile crowdsensing, edge intelligence, and Internet of Vehicles.",
+    en: "I am an Associate Professor at <a href='https://cs.njust.edu.cn/' target='_blank' rel='noopener'> the School of Computer Science and Engineering</a>, <a href='https://www.njust.edu.cn/' target='_blank' rel='noopener'>Nanjing University of Science and Technology (NJUST)</a>, which I joined in July 2026 as a member of <a href='https://www.junlongzhou.team/' target='_blank' rel='noopener'>Prof. Junlong Zhou</a>'s research team. I received my Ph.D. degree from the School of Cyber Science and Engineering, Wuhan University, China, in June 2026, under the supervision of <a href='http://yuecao.e.zwz.hk/zh' target='_blank' rel='noopener'>Prof. Yue Cao</a>. Prior to that, I received my Master's degree in 2022, under the supervision of <a href='https://www.scholat.com/huanzhou' target='_blank' rel='noopener'>Prof. Huan Zhou</a> (Northwestern Polytechnical University). I have published 16 papers in premier journals and conferences such as IEEE TMC and IEEE COMST, including two ESI Highly Cited Papers. My research interests include mobile crowdsensing, edge intelligence,  Internet of Vehicles and so on.",
     zh: "我于 2026 年 7 月加入<a href='https://cs.njust.edu.cn/' target='_blank' rel='noopener'>计算机科学与工程学院</a>，<a href='https://www.njust.edu.cn/' target='_blank' rel='noopener'>南京理工大学</a>，担任副教授，隶属于<a href='https://www.junlongzhou.team/' target='_blank' rel='noopener'>周俊龙教授</a>的研究团队。2026 年 6 月，我在武汉大学国家网络安全学院获得博士学位，导师为<a href='http://yuecao.e.zwz.hk/zh' target='_blank' rel='noopener'>曹越教授</a>。在此之前，我于 2022 年获得硕士学位，导师为西北工业大学<a href='https://www.scholat.com/huanzhou' target='_blank' rel='noopener'>周欢教授</a>。我已在 IEEE TMC、IEEE COMST 等顶级期刊和会议发表 16 篇论文，含两篇 ESI 高被引论文。我的研究方向包括移动群智感知、边缘智能和车联网等。"
   },
 
@@ -141,7 +141,7 @@ window.SITE = {
         {
           badges: ["IEEE Network", "IF: 6.3"],
           text: "Kai Jiang, Yue Cao, <b>Zhenning Wang</b>, Huan Zhou, Hong Zhu, Zhi Liu, and Lexi Xu, “<em>Reinforcement Learning for Digital Twin Empowered Ride-Sharing System Optimization</em>,” <strong>IEEE Network</strong>, vol. 39, no. 2, pp. 184-193, 2025."
-        }
+        },
         {
           badges: ["TMC", "CCF-A", "IF: 9.2"],
           text: "<b>Zhenning Wang</b>, Yue Cao*, Huan Zhou, Xiaokang Zhou, Jiawen Kang, and H. Herbert Song, “<em>DRAM: Digital Twin-Driven Double-Layer Reverse Auction Method for Multi-Platform Vehicular Crowdsensing</em>,” <strong>IEEE Transactions on Mobile Computing</strong>, vol. 24, no. 12, pp. 13725-13742, 2025."
@@ -174,7 +174,7 @@ window.SITE = {
         {
           badges: ["ICPADS", "CCF-C"],
           text: "Yuqian He, Deng Meng, Huan Zhou, <b>Zhenning Wang</b>, Liang Zhao, and Xinggang Fan, “<em>FedKDC: Toward Efficient Federated Learning via Knowledge Distillation and Data Compression for Heterogeneous Devices</em>,” in Proc. IEEE ICPADS, 2025."
-        }
+        },
         {
           badges: ["MobiCom Poster", "CCF-A Poster"],
           text: "Hengtao Wang, Huan Zhou, <b>Zhenning Wang</b>, and Xinggang Fan, “<em>Diffusion-Driven Stackelberg Games for Semantic Information Trading in Metaverse Systems</em>,” in Proc. ACM MobiCom, 2025."
@@ -190,7 +190,7 @@ window.SITE = {
         {
           badges: ["ICCCN", "CCF-C"],
           text: "<b>Zhenning Wang</b>, Tong Wu, Zhenyu Zhang, and Huan Zhou, “<em>A Game theory-based Computation Offloading Method in Cloud-Edge Computing Networks</em>,” in Proc. IEEE ICCCN, 2021."
-        },
+        }
         
         
         
