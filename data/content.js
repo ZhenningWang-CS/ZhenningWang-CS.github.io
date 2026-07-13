@@ -58,7 +58,7 @@ window.SITE = {
   interests: [
     { en: "Crowdsensing",  zh: "群智感知" },
     { en: "Mobile Computing",  zh: "移动计算" },
-    { en: "Edge Intelligence",    zh: "边缘智能" },
+    { en: "Edge Intelligence",   zh: "边缘智能" },
     { en: "Internet of Vehicles", zh: "车联网" },
     { en: "cybersecurity", zh: "网络安全" },
   ],
