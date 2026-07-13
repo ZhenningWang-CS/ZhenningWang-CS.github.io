@@ -68,14 +68,8 @@
       "<svg viewBox='0 0 120 16' aria-hidden='true'><path d='M0 8 H28 L34 2 L42 14 L48 5 L54 11 L60 8 H120' fill='none' stroke='currentColor' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/></svg>"));
 
     box.appendChild(el("p", "side-title", t(p.title)));
-    // box.appendChild(el("p", "side-affil",
-    //   "<a href='" + p.affiliation.url + "' target='_blank' rel='noopener'>" + t(p.affiliation.text) + "</a>"));
     box.appendChild(el("p", "side-affil",
-  lang === "en"
-    ? "School of Computer Science and Engineering<br>" +
-      "<a href='" + p.affiliation.url + "' target='_blank' rel='noopener'>Nanjing University of Science and Technology</a>"
-    : "<a href='" + p.affiliation.url + "' target='_blank' rel='noopener'>南京理工大学</a><br>计算机科学与工程学院"
-));
+    "<a href='" + p.affiliation.url + "' target='_blank' rel='noopener'>" + t(p.affiliation.text) + "</a>"));
     box.appendChild(el("p", "side-loc",
       "<i class='fas fa-map-marker-alt' aria-hidden='true'></i> " + t(p.location)));
 
