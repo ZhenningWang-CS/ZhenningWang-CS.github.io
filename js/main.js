@@ -280,24 +280,7 @@
   }
 
   function renderFooter() {
-
-    var today = new Date();
-
-    var yyyy = today.getFullYear();
-    var mm = String(today.getMonth() + 1).padStart(2, "0");
-    var dd = String(today.getDate()).padStart(2, "0");
-
-    var date = yyyy + "-" + mm + "-" + dd;
-
-    var html = t(S.footer);
-
-    html += "<br><span style='font-size:0.9em;color:#777;'>"
-          + (lang === "en"
-              ? "Last updated: " + date
-              : "最后更新：" + date)
-          + "</span>";
-
-    document.getElementById("footer-text").innerHTML = html;
+    document.getElementById("footer-text").innerHTML = t(S.footer);
 }
 
   /* ---------------- 总渲染 ---------------- */
