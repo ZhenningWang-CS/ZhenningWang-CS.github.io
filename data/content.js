@@ -60,7 +60,7 @@ window.SITE = {
     { en: "Mobile Computing",  zh: "移动计算" },
     { en: "Edge Intelligence",   zh: "边缘智能" },
     { en: "Internet of Vehicles", zh: "车联网" },
-    { en: "cybersecurity", zh: "网络安全" },
+    { en: "cybersecurity", zh: "网络安全" }
   ],
 
   /* ------------------------------------------------------------------
@@ -164,7 +164,7 @@ window.SITE = {
         {
           badges: ["IoTJ", "IF: 8.9"],
           text: "Huan Zhou, <b>Zhenning Wang</b>, Nan Cheng, Deze Zeng, and Pingzhi Fan, “<em>Stackelberg Game-based Computation Offloading in Cloud-Edge Computing Networks</em>,” <strong>IEEE Internet of Things Journal</strong>, vol. 9, no. 17, pp. 16510-16520, 2022."
-        },
+        }
         
       ]
     },
