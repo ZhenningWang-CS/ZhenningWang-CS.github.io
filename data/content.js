@@ -28,7 +28,7 @@ window.SITE = {
     location: { en: "Nanjing, China", zh: "中国 · 南京" },
     photo: "assets/img/profile.jpg",
 
-    email: "wzn0115@163.com",          // ← 换学校邮箱时改这里
+    email: "zhenning.wang@njust.edu.cn",  // ← 换学校邮箱时改这里
     phone: "",                          // 电话：留空则不在页面上显示
     office: {
       en: "Room 4038, Dingxin Building, NJUST",
@@ -315,7 +315,7 @@ window.SITE = {
   },
 
   footer: {
-    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST<br><span style='font-size:0.9em;color:#777;'>Last updated: 2026-07-13</span>",
-    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院<br><span style='font-size:0.9em;color:#777;'>最后更新：2026-07-13</span>"
+    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST<br><span style='font-size:0.9em;color:#777;'>Last updated: 2026-07-22</span>",
+    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院<br><span style='font-size:0.9em;color:#777;'>最后更新：2026-07-22</span>"
 }
 };
