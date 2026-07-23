@@ -46,7 +46,7 @@ window.SITE = {
    *    DBLP:           "fas fa-database"
    * ------------------------------------------------------------------ */
   links: [
-    { label: "Google Scholar", icon: "fas fa-graduation-cap", url: "https://scholar.google.com/citations?user=wzn" },  /* ★ 请替换为真实 Scholar 链接 */
+    { label: "Google Scholar", icon: "fas fa-graduation-cap", url: "https://scholar.google.com/citations?user=wp0L1-IAAAAJ&hl=zh-CN" },  /* ★ 请替换为真实 Scholar 链接 */
     { label: "ORCID",          icon: "fab fa-orcid",          url: "https://orcid.org/0000-0003-3831-987X" }           /* ★ 请替换为真实 ORCID 链接 */
     // { label: "ResearchGate", icon: "fab fa-researchgate",  url: "https://www.researchgate.net/profile/xxx" },
     // { label: "GitHub",       icon: "fab fa-github",        url: "https://github.com/xxx" },
