@@ -29,10 +29,10 @@ window.SITE = {
     photo: "assets/img/profile.jpg",
 
     email: "zhenning.wang@njust.edu.cn",  // ← 换学校邮箱时改这里
-    phone: "",                          // 电话：留空则不在页面上显示
+    phone: "13276683569",                          // 电话：留空则不在页面上显示
     office: {
-      en: "Room 4038, Dingxin Building, NJUST",
-      zh: "南京理工大学鼎新楼 4038"
+      en: "Room 4038, School of Computer Science and Engineering, NJUST",
+      zh: "南京理工大学计算机学院 4038"
     }
   },
 
