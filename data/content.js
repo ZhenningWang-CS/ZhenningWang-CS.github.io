@@ -124,7 +124,7 @@ window.SITE = {
       items: [
         {
           badges: ["TMC", "CCF-A", { en: "Corresponding Author", zh: "通讯作者" }, "IF: 9.2"],
-          text: "Yujie Song, Yue Cao, <b>Zhenning Wang</b>*, Chi-Hung Chi, Wei Ren, and Wei Wang, “<em>TTACO: Trusted Time-Aware Computing Offloading in Air-Ground Integrated Networks</em>,” <strong>IEEE Transactions on Mobile Computing</strong>, DOI: 10.1109/TMC.2026.3696251, 2026."
+          text: "Yujie Song, Yue Cao, <b>Zhenning Wang</b>*, Chi-Hung Chi, Wei Ren, and Wei Wang, “<em>TTACO: Trusted Time-Aware Computing Offloading in Air-Ground Integrated Networks</em>,” <strong>IEEE Transactions on Mobile Computing</strong>, vol. 25, no. 9, pp. 15079-15096, 2026."
         },
         {
           badges: ["TMC", "CCF-A", "IF: 9.2"],
@@ -315,7 +315,7 @@ window.SITE = {
   },
 
   footer: {
-    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST<br><span style='font-size:0.9em;color:#777;'>Last updated: 2026-07-22</span>",
-    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院<br><span style='font-size:0.9em;color:#777;'>最后更新：2026-07-22</span>"
+    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST<br><span style='font-size:0.9em;color:#777;'>Last updated: 2026-08-07</span>",
+    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院<br><span style='font-size:0.9em;color:#777;'>最后更新：2026-08-07</span>"
 }
 };
