@@ -130,13 +130,14 @@ window.SITE = {
           badges: ["TMC", "CCF-A", "IF: 9.2"],
           text: "<b>Zhenning Wang</b>, Yue Cao*, Huan Zhou, Kai Jiang, Yujie Song, and Liang Zhao, “<em>Reputation-based Sensing Data Collection in Vehicular Crowdsensing: A Hybrid Incentive Approach</em>,” <strong>IEEE Transactions on Mobile Computing</strong>, vol. 25, no. 6, pp. 8977-8995, 2026."
         },
-        {
-          badges: ["TMC", "CCF-A", "IF: 9.2"],
-          text: "<b>Zhenning Wang</b>, Yue Cao*, Huan Zhou, Libing Wu, Wei Wang, and Geyong Min, “<em>Fairness-aware Two-stage Hybrid Sensing Method in Vehicular Crowdsensing</em>,” <strong>IEEE Transactions on Mobile Computing</strong>, vol. 23, no. 12, pp. 11971-11988, 2024."
-        },
+        
         {
           badges: ["COMST", "ESI Highly Cited", "IF: 46.7"],
           text: "<b>Zhenning Wang</b>, Yue Cao*, Kai Jiang, Huan Zhou, Jiawen Kang, Yuan Zhuang, Daxin Tian, and Victor C. M. Leung, “<em>When Crowdsensing Meets Smart Cities: A Comprehensive Survey and New Perspectives</em>,” <strong>IEEE Communications Surveys &amp; Tutorials</strong>, vol. 27, no. 2, pp. 1101-1151, 2025."
+        },   
+        {
+          badges: ["TMC", "CCF-A", "IF: 9.2"],
+          text: "<b>Zhenning Wang</b>, Yue Cao*, Huan Zhou, Xiaokang Zhou, Jiawen Kang, and H. Herbert Song, “<em>DRAM: Digital Twin-Driven Double-Layer Reverse Auction Method for Multi-Platform Vehicular Crowdsensing</em>,” <strong>IEEE Transactions on Mobile Computing</strong>, vol. 24, no. 12, pp. 13725-13742, 2025."
         },   
         {
           badges: ["IEEE Network", "IF: 6.3"],
@@ -144,8 +145,8 @@ window.SITE = {
         },
         {
           badges: ["TMC", "CCF-A", "IF: 9.2"],
-          text: "<b>Zhenning Wang</b>, Yue Cao*, Huan Zhou, Xiaokang Zhou, Jiawen Kang, and H. Herbert Song, “<em>DRAM: Digital Twin-Driven Double-Layer Reverse Auction Method for Multi-Platform Vehicular Crowdsensing</em>,” <strong>IEEE Transactions on Mobile Computing</strong>, vol. 24, no. 12, pp. 13725-13742, 2025."
-        },   
+          text: "<b>Zhenning Wang</b>, Yue Cao*, Huan Zhou, Libing Wu, Wei Wang, and Geyong Min, “<em>Fairness-aware Two-stage Hybrid Sensing Method in Vehicular Crowdsensing</em>,” <strong>IEEE Transactions on Mobile Computing</strong>, vol. 23, no. 12, pp. 11971-11988, 2024."
+        },
         {
           badges: ["JCRD", "CCF-T1/A"],
           text: {
