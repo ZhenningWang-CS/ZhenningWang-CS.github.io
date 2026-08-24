@@ -32,7 +32,7 @@ window.SITE = {
     phone: "13276683569",                          // 电话：留空则不在页面上显示
     office: {
       en: "Room 4038, School of Computer Science and Engineering, NJUST",
-      zh: "南京理工大学计算机学院 4038"
+      zh: "南京理工大学计算机学院鼎新楼4038"
     }
   },
 
