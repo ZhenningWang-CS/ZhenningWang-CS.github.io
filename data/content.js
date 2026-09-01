@@ -96,13 +96,14 @@ window.SITE = {
    * ------------------------------------------------------------------ */
   newsShowCount: 5,
   news: [
+     { date: "2026.09", en: "Our paper won the 2025 Hubei Provincial Excellent Scientific Paper Award.", zh: "我们的论文荣获2025年度湖北省优秀科技论文奖。" },
     { date: "2026.07", en: "Joined the School of Computer Science and Engineering, NJUST, as an Associate Professor.", zh: "加入南京理工大学计算机科学与工程学院，担任副教授。" },
-    { date: "2026.05", en: "Paper accepted by IEEE Transactions on Mobile Computing.", zh: "论文被 IEEE Transactions on Mobile Computing 录用。" },
-    { date: "2025.12", en: "Paper accepted by IEEE Transactions on Mobile Computing.", zh: "论文被 IEEE Transactions on Mobile Computing 录用。" },
-    { date: "2025.11", en: "Received the Yu Gang &amp; Song Xiao Special Scholarship, Wuhan University.", zh: "获得武汉大学于刚宋晓专项奖学金。" },
-    { date: "2025.07", en: "Our IEEE COMST survey paper was selected as an ESI Highly Cited Paper.", zh: "IEEE COMST 综述论文入选 ESI 高被引论文。" },
-    { date: "2025.07", en: "Visited Sungkyunkwan University, South Korea.", zh: "前往韩国成均馆大学交流访问。" },
-    { date: "2025.01", en: "Selected for the inaugural Young Elite Scientists Sponsorship Program by CAST — Doctoral Student Special Plan (Sponsoring Society: China SAE).", zh: "入选首届中国科协青年人才托举工程博士生专项计划（托举学会：中国汽车工程学会）。" }
+    { date: "2026.05", en: "Our paper accepted by IEEE Transactions on Mobile Computing.", zh: "我们的论文被 IEEE Transactions on Mobile Computing 录用。" },
+    { date: "2025.12", en: "Our paper accepted by IEEE Transactions on Mobile Computing.", zh: "我们的论文被 IEEE Transactions on Mobile Computing 录用。" },
+    { date: "2025.11", en: "I received the Yu Gang &amp; Song Xiao Special Scholarship, Wuhan University.", zh: "我获得武汉大学于刚宋晓专项奖学金。" },
+    { date: "2025.07", en: "Our IEEE COMST survey paper was selected as an ESI Highly Cited Paper.", zh: "我们发表在IEEE COMST 的综述论文入选 ESI 高被引论文。" },
+    { date: "2025.07", en: "I visited Sungkyunkwan University, South Korea.", zh: "前往韩国成均馆大学交流访问。" },
+    { date: "2025.01", en: "I selected for the inaugural Young Elite Scientists Sponsorship Program by CAST — Doctoral Student Special Plan (Sponsoring Society: China SAE).", zh: "我入选首届中国科协青年人才托举工程博士生专项计划（托举学会：中国汽车工程学会）。" }
   ],
 
   /* ------------------------------------------------------------------
@@ -132,7 +133,7 @@ window.SITE = {
         },
         
         {
-          badges: ["COMST", "ESI Highly Cited", "IF: 46.7"],
+          badges: ["COMST", "ESI Highly Cited", "IF: 46.7", "2025 Hubei Provincial Excellent Scientific Paper Award"],
           text: "<b>Zhenning Wang</b>, Yue Cao*, Kai Jiang, Huan Zhou, Jiawen Kang, Yuan Zhuang, Daxin Tian, and Victor C. M. Leung, “<em>When Crowdsensing Meets Smart Cities: A Comprehensive Survey and New Perspectives</em>,” <strong>IEEE Communications Surveys &amp; Tutorials</strong>, vol. 27, no. 2, pp. 1101-1151, 2025."
         },   
         {
@@ -316,7 +317,7 @@ window.SITE = {
   },
 
   footer: {
-    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST<br><span style='font-size:0.9em;color:#777;'>Last updated: 2026-08-07</span>",
-    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院<br><span style='font-size:0.9em;color:#777;'>最后更新：2026-08-07</span>"
+    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST<br><span style='font-size:0.9em;color:#777;'>Last updated: 2026-09-01</span>",
+    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院<br><span style='font-size:0.9em;color:#777;'>最后更新：2026-09-01</span>"
 }
 };
