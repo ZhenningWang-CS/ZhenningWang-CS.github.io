@@ -133,7 +133,7 @@ window.SITE = {
         },
         
         {
-          badges: ["COMST", "ESI Highly Cited", "IF: 46.7", "2025 Hubei Provincial Excellent Scientific Paper Award"],
+          badges: ["COMST", "ESI Highly Cited", "IF: 46.7", { en: "2025 Hubei Provincial Excellent Scientific Paper", zh: "2025湖北省优秀科技论文" } ],
           text: "<b>Zhenning Wang</b>, Yue Cao*, Kai Jiang, Huan Zhou, Jiawen Kang, Yuan Zhuang, Daxin Tian, and Victor C. M. Leung, “<em>When Crowdsensing Meets Smart Cities: A Comprehensive Survey and New Perspectives</em>,” <strong>IEEE Communications Surveys &amp; Tutorials</strong>, vol. 27, no. 2, pp. 1101-1151, 2025."
         },   
         {
