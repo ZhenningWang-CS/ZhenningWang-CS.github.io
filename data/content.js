@@ -96,10 +96,11 @@ window.SITE = {
    * ------------------------------------------------------------------ */
   newsShowCount: 5,
   news: [
+     { date: "2026.09", en: "Our paper has been accepted by China Communications.", zh: "我们的论文被China Communications接收。" },
      { date: "2026.09", en: "Our paper won the 2025 Hubei Provincial Excellent Scientific Paper Award.", zh: "我们的论文荣获2025年度湖北省优秀科技论文奖。" },
-    { date: "2026.07", en: "Joined the School of Computer Science and Engineering, NJUST, as an Associate Professor.", zh: "加入南京理工大学计算机科学与工程学院，担任副教授。" },
-    { date: "2026.05", en: "Our paper accepted by IEEE Transactions on Mobile Computing.", zh: "我们的论文被 IEEE Transactions on Mobile Computing 录用。" },
-    { date: "2025.12", en: "Our paper accepted by IEEE Transactions on Mobile Computing.", zh: "我们的论文被 IEEE Transactions on Mobile Computing 录用。" },
+    { date: "2026.07", en: "I have joined the School of Computer Science and Engineering, NJUST, as an Associate Professor.", zh: "我加入南京理工大学计算机科学与工程学院，担任副教授。" },
+    { date: "2026.05", en: "Our paper has been accepted by IEEE Transactions on Mobile Computing.", zh: "我们的论文被 IEEE Transactions on Mobile Computing 录用。" },
+    { date: "2025.12", en: "Our paper has been accepted by IEEE Transactions on Mobile Computing.", zh: "我们的论文被 IEEE Transactions on Mobile Computing 录用。" },
     { date: "2025.11", en: "I received the Yu Gang &amp; Song Xiao Special Scholarship, Wuhan University.", zh: "我获得武汉大学于刚宋晓专项奖学金。" },
     { date: "2025.07", en: "Our IEEE COMST survey paper was selected as an ESI Highly Cited Paper.", zh: "我们发表在IEEE COMST 的综述论文入选 ESI 高被引论文。" },
     { date: "2025.07", en: "I visited Sungkyunkwan University, South Korea.", zh: "前往韩国成均馆大学交流访问。" },
@@ -123,6 +124,10 @@ window.SITE = {
     journal: {
       label: { en: "Journal Articles", zh: "期刊论文" },
       items: [
+         {
+          badges: ["CNCOMM", "CCF-T2"],
+          text: "Yuchen Lei, <b>Zhenning Wang</b>, Mingyang Zhao, Yue Cao, and Wansu Lim, “<em>Peer-Aware and Fair-Play Decentralized Task Offloading for Vehicular Edge Computing: A Multi-Agent Learning Framework</em>,” <strong>China Communications</strong>, Accepted, 2026."
+        },
         {
           badges: ["TMC", "CCF-A", { en: "Corresponding Author", zh: "通讯作者" }, "IF: 9.2"],
           text: "Yujie Song, Yue Cao, <b>Zhenning Wang</b>*, Chi-Hung Chi, Wei Ren, and Wei Wang, “<em>TTACO: Trusted Time-Aware Computing Offloading in Air-Ground Integrated Networks</em>,” <strong>IEEE Transactions on Mobile Computing</strong>, vol. 25, no. 9, pp. 15079-15096, 2026."
@@ -317,7 +322,7 @@ window.SITE = {
   },
 
   footer: {
-    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST<br><span style='font-size:0.9em;color:#777;'>Last updated: 2026-09-01</span>",
-    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院<br><span style='font-size:0.9em;color:#777;'>最后更新：2026-09-01</span>"
+    en: "© 2026 Zhenning Wang · School of Computer Science and Engineering, NJUST<br><span style='font-size:0.9em;color:#777;'>Last updated: 2026-10-30</span>",
+    zh: "© 2026 王振宁 · 南京理工大学计算机科学与工程学院<br><span style='font-size:0.9em;color:#777;'>最后更新：2026-10-30</span>"
 }
 };
