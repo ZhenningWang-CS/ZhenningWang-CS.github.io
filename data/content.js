@@ -126,7 +126,7 @@ window.SITE = {
       items: [
          {
           badges: ["CNCOMM", "CCF-T2"],
-          text: "Yuchen Lei, <b>Zhenning Wang</b>, Mingyang Zhao, Yue Cao, and Wansu Lim, “<em>Peer-Aware and Fair-Play Decentralized Task Offloading for Vehicular Edge Computing: A Multi-Agent Learning Framework</em>,” <strong>China Communications</strong>, Accepted, 2026."
+          text: "Yuchen Lei, <b>Zhenning Wang</b>, Mingyang Zhao, Yue Cao, Wansu Lim, and Ziming He, “<em>Peer-Aware and Fair-Play Decentralized Task Offloading for Vehicular Edge Computing: A Multi-Agent Learning Framework</em>,” <strong>China Communications</strong>, Accepted, 2026."
         },
         {
           badges: ["TMC", "CCF-A", { en: "Corresponding Author", zh: "通讯作者" }, "IF: 9.2"],
