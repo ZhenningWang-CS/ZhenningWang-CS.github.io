@@ -96,7 +96,7 @@ window.SITE = {
    * ------------------------------------------------------------------ */
   newsShowCount: 5,
   news: [
-     { date: "2026.09", en: "Our paper has been accepted by China Communications.", zh: "我们的论文被China Communications接收。" },
+     { date: "2026.10", en: "Our paper has been accepted by China Communications.", zh: "我们的论文被China Communications接收。" },
      { date: "2026.09", en: "Our paper won the 2025 Hubei Provincial Excellent Scientific Paper Award.", zh: "我们的论文荣获2025年度湖北省优秀科技论文奖。" },
     { date: "2026.07", en: "I have joined the School of Computer Science and Engineering, NJUST, as an Associate Professor.", zh: "我加入南京理工大学计算机科学与工程学院，担任副教授。" },
     { date: "2026.05", en: "Our paper has been accepted by IEEE Transactions on Mobile Computing.", zh: "我们的论文被 IEEE Transactions on Mobile Computing 录用。" },
